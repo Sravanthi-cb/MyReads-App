@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import {CurrentlyReading, WantToRead, Read} from './Tabs';
+import BookTab from './Tabs';
 import Search from './Search';
 
 class Main extends Component {
@@ -8,23 +8,26 @@ class Main extends Component {
       return (
         <Switch>
          <Route exact path="/" render={() => (
-          <CurrentlyReading 
+          <BookTab 
           books={this.props.state.books}
           moveShelf={this.props.moveShelf}
+          tabName='currentlyReading'
         />
         )}/>
 
         <Route  path="/WantToRead" render={() => (
-          <WantToRead 
+          <BookTab 
           books={this.props.state.books}
           moveShelf={this.props.moveShelf}
+          tabName='wantToRead'
         />
         )}/>
 
         <Route  path="/Read" render={() => (
-          <Read 
+          <BookTab 
           books={this.props.state.books}
           moveShelf={this.props.moveShelf}
+          tabName='read'
         />
         )}/>
         

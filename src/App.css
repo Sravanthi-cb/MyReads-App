@@ -45,9 +45,7 @@ body, .app {
 
 /* search page */
 
-.search-books-bar {
-  
-  width: 100%;
+.search-books-bar {  
   z-index: 5;
   display: flex;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
@@ -57,12 +55,15 @@ body, .app {
   background: #e9e;
 }
 .search-books-bar input {
-  width: 100%;
   padding: 15px 10px;
   font-size: 1.25em;
-  border: none;
-  outline: none;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 0;
+  box-shadow: none;
 }
+
 .search-books-results {
   padding: 80px 10px 20px;
 }

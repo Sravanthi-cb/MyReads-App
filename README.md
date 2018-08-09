@@ -30,7 +30,7 @@ The project emphasizes using React to build the application and provides an API 
  The main page contains a links to Currently Reading, Want to Read, Read and  search page. 
 
 # Backend Server
-To simplify your development process, we've provided a backend server for you to develop against. The provided file BooksAPI.js contains the methods you will need to perform necessary operations on the backend:
+The provided file BooksAPI.js contains the methods you will need to perform necessary operations on the backend:
 
 - getAll
 - update
@@ -67,11 +67,4 @@ Method Signature:
 
 The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in SEARCH_TERMS.md. That list of terms are the only terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
 
-# Create React App
-This project was bootstrapped with Create React App. You can find more information on how to perform common tasks here.
 
-## Contributing
-
-This repository is the starter code for all Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](https://github.com/udacity/reactnd-project-myreads-starter/blob/master/CONTRIBUTING.md)
