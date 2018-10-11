@@ -1,5 +1,5 @@
 { 
-  "homepage": "https://Sravanthi-cb.github.io/MyReads-App/",
+  "homepage": "https://Sravanthi-cb.github.io/MyReads-App",
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
     "gh-pages": "^2.0.1",
